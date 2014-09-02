@@ -4,3 +4,5 @@
 Laborationer i kursen 1lik415
 
 Denna laboration är till för att pröva på laborationsmiljön vare sig det är hemma eller i skolan.
+
+loltest
