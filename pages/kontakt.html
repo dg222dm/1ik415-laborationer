@@ -1,1 +1,32 @@
-TEST3
+<!doctype html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8" />
+        <title>Kontakt</title>
+    </head>
+    <body>
+        <p>Observera! Detta är bara ett påhittat kontaktformulär!</p>
+        <form method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+            
+            <fieldset>
+                <legend>Fråga</legend>
+                 Ärendetyp:
+                <select name="ärendetyp">
+               
+                      <option value="fråga">Fråga</option>
+                      <option value="test">test</option>
+                </select><br />
+                Rubrik: <input type="text" name="rubrik"><br />
+                Fråga: <textarea name="fråga" rows="2" cols="25">
+                </textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Information om dig</legend>
+                Kontakta mig via mail<input type="checkbox" name="kontaktamig" value="mail"><br />
+                Kontakta mig via telefon<input type="checkbox" name="kontaktamig" value="telefon">
+            </fieldset>
+            <input type="submit" name="knapp" value="skicka fråga" />
+        </form>
+    </body>
+</html>
+
