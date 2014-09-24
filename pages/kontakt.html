@@ -1,10 +1,28 @@
 <!doctype html>
 <html lang="sv">
     <head>
+        <link rel="stylesheet"  href="../css/style.css" />
         <meta charset="utf-8" />
         <title>Kontakt</title>
     </head>
     <body>
+    <div id="background">
+    <div id="header">
+        <h1>Kontakt</h1>
+    </div>
+    <div id ="nav">
+    <!--Lista med länkar -->        
+        <ul>
+            <li><a href="../index.html">Start</a></li>
+            <li><a href="laborationer.html">Laborationer</a></li>
+            <li><a href="presentation.html">Presentation</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+      
+<!--Slut på länk lista -->            
+        </ul>
+    </div>  
+    <div id="content">
+    <article>
         <p>Observera! Detta är bara ett påhittat kontaktformulär!</p>
         <form method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
             
@@ -22,11 +40,18 @@
             </fieldset>
             <fieldset>
                 <legend>Information om dig</legend>
-                Kontakta mig via mail<input type="checkbox" name="kontaktamig" value="mail"><br />
-                Kontakta mig via telefon<input type="checkbox" name="kontaktamig" value="telefon">
+                Kontakta mig via mail<input type="checkbox" name="kontaktamigviamail" value="mail"><br />
+                Kontakta mig via telefon<input type="checkbox" name="kontaktamigviatelefon" value="telefon">
             </fieldset>
+            <!-- fråga läraren -->
             <input type="submit" name="knapp" value="skicka fråga" />
         </form>
+    </article>
+    </div>
+    <div id="footer">
+        Copyright © Damian Geraci
+    </div>
+    </div>
     </body>
 </html>
 

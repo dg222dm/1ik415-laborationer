@@ -1,8 +1,10 @@
 <!doctype html>
 <html lang="sv">
     <head>
+        <link rel="stylesheet"  href="../css/style.css" />
         <meta charset="utf-8" />
         <title>Laborationer</title>
+        <!--http://docs.webplatform.org/wiki/guides/html_tables -->
         <style>
         table,th,td
         {
@@ -12,10 +14,12 @@
     </head>
 
     <body>
+    <div id="background">
+    <div id="header">
         <h1>Min laborationsportal</h1>
-        
-        <p>Damians fantastiska sajt.</p>
-
+    </div>    
+     
+    <div id="nav">
 <!--Lista med länkar -->        
         <ul>
             <li><a href="../index.html">Start</a></li>
@@ -25,14 +29,16 @@
         
 <!--Slut på länk lista -->            
         </ul>
+    </div>
+    <div id="content">   
+    <article>
         <h2>Webbteknisk introduktion</h2>
 
-<!--Länklista med ID attributer-->
         <ul>
             <li><a href="#lab1">Laboration 1</a></li>
             <li><a href="#lab2">Laboration 2</a></li>
         </ul>
-        
+
 <!--Tabell med studieresultat -->
 <!-- http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_td_rowspan -->
         <h2>Resultat</h2>
@@ -127,7 +133,7 @@
             <li><dl>
                     <dt>Absoluta sökvägar</dt>
                     <dt>Skriv den absoluta sökvägen till filen bottom.html</dt>
-                    <dd>www-.se/html/pages/bottom.html</dd>
+                    <dd>www.server.se/html/pages/bottom.html</dd>
                     <dt>Skriv den relativa sökvägen från filen default.html. till filen top.html</dt>
                     <dd>pages/top.html</dd>
                     <dt>Skriv den relativa sökvägen från filen bottom.html till filen index.html</dt>
@@ -143,5 +149,8 @@
             <li>Bilder</li>
             <li>Video</li>
         </ol>
+    </article>
+    </div>
+    </div>
     </body>
 </html>
