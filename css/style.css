@@ -1,0 +1,104 @@
+#header {
+    width:1024px;
+    background-color:#051035;
+    color:white;
+    text-align:center;
+    background-image: url(../css/pics/svgLogo.svg);
+    background-size: 100px 100px;
+    background-position: left -20px;
+    background-repeat: no-repeat;
+    
+}
+#nav ul{
+    line-height:30px;
+    background-color:#13214A;
+    list-style-type: none;
+    font-family: verdana;
+    font-size:15px;
+    float:left;
+    padding: 0;
+}
+
+#nav li{
+    margin: 10px ; /*Mellan rum mellan list items*/
+}
+
+.active {
+    font-size:20px;
+    text-align:center;
+}
+
+#nav a{
+    display: block;
+    width: 130px;
+    background: #dcdcdc;
+    text-decoration: none; /*tar bort understräcken*/
+}
+
+#nav a:link, #nav a:active, #nav a:visited {
+    color: #000000;
+}
+
+#nav a:hover {
+    background:#333333;
+    color: #ffffff;
+}
+
+#background {
+    width:1024px;
+    height:auto;
+    margin:0 auto;
+    background-color:#13214A;
+}
+    
+   
+
+#footer {
+    background-color:#051035;
+    width:1024px;
+    color:white;
+    clear:both;
+    text-align:center;
+   	 
+}
+
+#content {
+  width: 730px;
+  float:left;
+  background-color:#596381;
+  height: auto;
+
+}
+
+.right {
+    float: right;
+    border:1px solid #021a40;
+    padding: 1px;
+}
+.left {
+    float: left;
+    border:1px solid #021a40;
+    padding: 1px;
+}
+
+.center {
+    margin-left:220px; 
+    
+  }
+  
+  table, td, th {
+    border: 1px  solid;
+}
+
+th {
+    background-color: green;
+    color: white;
+}
+/*
+header färg: #051035
+nav fönster färg: #3E496F
+bakgrundsfärg: #13214A
+content färg: #596381
+footer färg: #051035
+
+*/
