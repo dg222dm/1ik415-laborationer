@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="sv">
     <head>
-        <link rel="stylesheet"  href="../css/style.css" />
+        <link rel="stylesheet"  href="../css/style.css" media="screen" />
+        <link rel="stylesheet"  href="../css/printfriendly.css" media="print" />
         <meta charset="utf-8" />
         <title>Laborationer</title>
         <!--http://docs.webplatform.org/wiki/guides/html_tables -->
@@ -9,144 +10,144 @@
     </head>
 
     <body>
-    <div id="background">
-    <div id="header">
-        <h1>Min laborationsportal</h1>
-    </div>    
-     
-    <div id="nav">
-        <ul>
-            <li><a href="../index.html">Start</a></li>
-            <li class="active"><a href="laborationer.html">Laborationer</a></li>
-            <li><a href="presentation.html">Presentation</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-        
-        </ul>
-    </div>
-    <div id="content">   
-    <article>
-        <h2>Webbteknisk introduktion</h2>
-
-        <ul>
-            <li><a href="#lab1">Laboration 1</a></li>
-            <li><a href="#lab2">Laboration 2</a></li>
-        </ul>
-
-<!--Tabell med studieresultat -->
-<!-- http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_td_rowspan -->
-        <h2>Resultat</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Laboration</th>
-                    <th>Uppgift</th>
-                    <th>Status</th>
-                    <th>Redovisad</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td rowspan="3">1</td>
-                    <td>1</td>
-                    <td>Ej inlämnad</td>
-                    <td>Ej redovisad</td>
-                   
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Ej inlämnad</td>
-                    <td>Ej redovisad</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Ej inlämnad</td>
-                    <td>Ej redovisad</td>
-                </tr>
-                <tr>
-                    <td rowspan="6">2</td>
-                    <td>1</td>
-                    <td>Ej påbörjad</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Ej påbörjad</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Ej påbörjad</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Ej påbörjad</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>Ej påbörjad</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>Ej påbörjad</td>
-                    <td></td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="4">Laborationsresultat gällande Damian Geraci</td>
-                </tr>
-            </tfoot>
-        </table>
-<!--Slut på länklista med ID attributer-->        
-        <h3><a id="lab1">Laboration 1</a></h3>
-        <ol>
-            <li>www-katalog &#x2713;</li>
-            <li><a href="presentation.html">Ett första dokument</a>&#x2713;</li>
-            <li>Startsidan &#x2713;</li>
-            <li>Absoluta/Relativa sökvägar &#x2713;</li>
-            <li>Länkar och mer listor &#x2713;</li>
-            <li>Laborationsportal&#x2713;</li>
-            <!-- fråga läraren om mellanrummet -->
-            <li><dl>
-                <dt>Bilder&#x2713;</dt>
-                <dd><a href="presentation.html#lyra">Länk till bild på presentation</a>&#x2713;</dd>
-                <dd><a href="../pics/LoggoLab1.png">Loggotyp</a>&#x2713;</dd>
-                <dd><a href="../index.html#svgLogo">svgLogo</a>&#x2713;</dd>
-            </dl></li>
-            <li><a href="../index.html#motivation">Video&#x2713;</a></li>
-        </ol>
-        <h3><a id="lab2">Laboration 2</a></h3>
-
-<!--Lista med Laborations uppgifter-->       
-        <p>Uppgifter:</p>
-        <ol>
-            <li><dl>
-                    <dt>Absoluta sökvägar</dt>
-                    <dt>Skriv den absoluta sökvägen till filen bottom.html</dt>
-                    <dd>www.server.se/html/pages/bottom.html</dd>
-                    <dt>Skriv den relativa sökvägen från filen default.html. till filen top.html</dt>
-                    <dd>pages/top.html</dd>
-                    <dt>Skriv den relativa sökvägen från filen bottom.html till filen index.html</dt>
-                    <dd>../../index.html</dd>
-                    <dt>Skriv den absoluta sökvägen till filen index.html</dt>
-                    <dd>www-.se/index.html</dd>
-                    <dt>Skriv den relativa sökvägen från filen top.html till bottom.html</dt>
-                    <dd>bottom.html</dd>
-                    <dt>Skriv den relativa sökvägen från filen index.html till top.html</dt>
-                    <dd>html/pages/top.html</dd>
-            </dl></li>
-            <li>Länkar och listor</li>
-            <li>Bilder</li>
-            <li>Video</li>
-        </ol>
-    </article>
-    </div>
-    <div id="footer">
-    Copyright © Damian Geraci
-    </div>
-    </div>
+        <div id="background">
+        <div id="header">
+            <h1>Min laborationsportal</h1>
+        </div>    
+         
+        <div id="nav">
+            <ul>
+                <li><a href="../index.html">Start</a></li>
+                <li class="active"><a href="laborationer.html">Laborationer</a></li>
+                <li><a href="presentation.html">Presentation</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            
+            </ul>
+        </div>
+        <div id="content">   
+        <article>
+            <h2>Webbteknisk introduktion</h2>
+    
+            <ul>
+                <li><a href="#lab1">Laboration 1</a></li>
+                <li><a href="#lab2">Laboration 2</a></li>
+            </ul>
+    
+    <!--Tabell med studieresultat -->
+    <!-- http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_td_rowspan -->
+            <h2>Resultat</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Laboration</th>
+                        <th>Uppgift</th>
+                        <th>Status</th>
+                        <th>Redovisad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3">1</td>
+                        <td>1</td>
+                        <td>Ej inlämnad</td>
+                        <td>Ej redovisad</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Ej inlämnad</td>
+                        <td>Ej redovisad</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Ej inlämnad</td>
+                        <td>Ej redovisad</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="6">2</td>
+                        <td>1</td>
+                        <td>Ej påbörjad</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Ej påbörjad</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Ej påbörjad</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Ej påbörjad</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ej påbörjad</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Ej påbörjad</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Laborationsresultat gällande Damian Geraci</td>
+                    </tr>
+                </tfoot>
+            </table>
+    <!--Slut på länklista med ID attributer-->        
+            <h3><a id="lab1">Laboration 1</a></h3>
+            <ol>
+                <li>www-katalog &#x2713;</li>
+                <li><a href="presentation.html">Ett första dokument</a>&#x2713;</li>
+                <li>Startsidan &#x2713;</li>
+                <li>Absoluta/Relativa sökvägar &#x2713;</li>
+                <li>Länkar och mer listor &#x2713;</li>
+                <li>Laborationsportal&#x2713;</li>
+                <!-- fråga läraren om mellanrummet -->
+                <li><dl>
+                    <dt>Bilder&#x2713;</dt>
+                    <dd><a href="presentation.html#lyra">Länk till bild på presentation</a>&#x2713;</dd>
+                    <dd><a href="../pics/LoggoLab1.png">Loggotyp</a>&#x2713;</dd>
+                    <dd><a href="../index.html#svgLogo">svgLogo</a>&#x2713;</dd>
+                </dl></li>
+                <li><a href="../index.html#motivation">Video&#x2713;</a></li>
+            </ol>
+            <h3><a id="lab2">Laboration 2</a></h3>
+    
+    <!--Lista med Laborations uppgifter-->       
+            <p>Uppgifter:</p>
+            <ol>
+                <li><dl>
+                        <dt>Absoluta sökvägar</dt>
+                        <dt>Skriv den absoluta sökvägen till filen bottom.html</dt>
+                        <dd>www.server.se/html/pages/bottom.html</dd>
+                        <dt>Skriv den relativa sökvägen från filen default.html. till filen top.html</dt>
+                        <dd>pages/top.html</dd>
+                        <dt>Skriv den relativa sökvägen från filen bottom.html till filen index.html</dt>
+                        <dd>../../index.html</dd>
+                        <dt>Skriv den absoluta sökvägen till filen index.html</dt>
+                        <dd>www-.se/index.html</dd>
+                        <dt>Skriv den relativa sökvägen från filen top.html till bottom.html</dt>
+                        <dd>bottom.html</dd>
+                        <dt>Skriv den relativa sökvägen från filen index.html till top.html</dt>
+                        <dd>html/pages/top.html</dd>
+                </dl></li>
+                <li>Länkar och listor</li>
+                <li>Bilder</li>
+                <li>Video</li>
+            </ol>
+        </article>
+        </div>
+        <div id="footer">
+        Copyright © Damian Geraci
+        </div>
+        </div>
     </body>
 </html>
