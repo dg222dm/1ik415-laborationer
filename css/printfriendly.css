@@ -1,0 +1,57 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Times, 
+    "Times New Roman",
+    Garamond, serif;
+}
+
+#nav, hr, body>div>
+
+#header h1 {
+    background-color: black;
+    font-size: 24pt;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Helvetica,
+    Arial, Verdana, sans-serif;
+    padding: 7pt;
+}
+
+#header h1 a {
+    color: white;
+}
+
+#content h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 20pt;
+    border-bottom: 1px solid black;
+}
+
+#content h3 {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    font-style: italic;
+}
+
+#content h4 {
+    font-family: Helvetica,
+    Verdana, Arial, 
+    sans-serif;
+    border-top: 3pt solid black;
+    background-color: #BEBEBE;
+    /* ~30% black*/
+    padding: 12pt;
+    margin: 0;
+}
+
+#content p {
+    line-height: 18pt;
+}
+
+#content a:after {
+    content: " <"
+    
+}
