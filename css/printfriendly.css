@@ -41,9 +41,10 @@ video {
 
 #content h3 {
     padding: 0;
-    margin: 0;
+    margin: 5;
     text-align: left;
     font-style: italic;
+    
 }
 
 #content h4 {
@@ -52,7 +53,6 @@ video {
     sans-serif;
     border-top: 3pt solid black;
     background-color: #BEBEBE;
-    /* ~30% black*/
     padding: 12pt;
     margin: 0;
 }
