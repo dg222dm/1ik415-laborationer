@@ -14,35 +14,50 @@
     background-color:#13214A;
     list-style-type: none;
     font-family: verdana;
-    font-size:15px;
+    font-size:10px;
     float:left;
     padding: 0;
+    text-align:center;
+ 
+    
 }
 
 #nav li{
     margin: 10px ; /*Mellan rum mellan list items*/
+   
 }
 
 .active {
-    font-size:20px;
-    text-align:center;
+    font-size:15px;
+    text-align:right;
 }
 
 #nav a{
     display: block;
     width: 130px;
-    background: #dcdcdc;
+    background-color: #dcdcdc;
     text-decoration: none; /*tar bort understräcken*/
+    background-image: url(../css/pics/sprite.png);
+    background-repeat:no-repeat;
 }
+
+#home-icon { background-position: 0 -44px}
+#home-icon:hover {background-position: 0px 4px}
+
+#tool-icon { background-position: 0px -140px}
+#tool-icon:hover {background-position: 0 -92px}
+
+#presentation-icon { background-position: 0px -236px}
+#presentation-icon:hover {background-position: 0 -188px}
+
+#contact-icon { background-position: 0px -333px}
+#contact-icon:hover {background-position: 0 -285px}
 
 #nav a:link, #nav a:active, #nav a:visited {
     color: #000000;
 }
 
-#nav a:hover {
-    background:#333333;
-    color: #ffffff;
-}
+
 
 #background {
     width:1024px;
