@@ -29,20 +29,22 @@
                 
                 <fieldset>
                     <legend>Fråga</legend>
-                     Ärendetyp:
-                    <select name="ärendetyp">
-                   
+                    
+                    <label for="arendetyp">Ärendetyp :</label>
+                    <select name="arendetyp" id="text3">
                           <option value="fråga">Fråga</option>
                           <option value="test">test</option>
                     </select><br />
-                    Rubrik: <input type="text" name="rubrik"><br />
-                    Fråga: <textarea name="fråga" rows="1" cols="25">
-                    </textarea>
+                    
+                    <label for="rubrik">Rubrik :</label><input type="text" id="text" name="rubrik"><br />
+                   
+                   <label for="fraga">Fråga :
+                        <textarea name="fraga" id="text2" rows="3" cols="25"></textarea></label> 
                 </fieldset>
                 <fieldset>
                     <legend>Information om dig</legend>
-                    Kontakta mig via mail<input type="checkbox" name="kontaktamigviamail" value="mail"><br />
-                    Kontakta mig via telefon<input type="checkbox" name="kontaktamigviatelefon" value="telefon">
+                    <input type="checkbox" name="kontaktamigviamail" value="mail">Kontakta mig via mail<br />
+                    <input type="checkbox" name="kontaktamigviatelefon" value="telefon">Kontakta mig via telefon
                 </fieldset>
                 <!-- fråga läraren -->
                 <input type="submit" name="knapp" value="skicka fråga" />
