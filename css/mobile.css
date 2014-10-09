@@ -13,6 +13,16 @@ img {
 	height: auto;
 	width: auto\9; /* ie8 */
 }
+body {
+    margin-top: 0;
+    margin: 0 0;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+
 }
 #header {
     width:100%;
@@ -130,12 +140,11 @@ th {
 #text {
     border-radius:0.48%;
     margin-left:12%;
-    width: 30.57%;
+    width: 60%;
 }
 
 #text2 {
-    max-width:150px;
-    width:30.57%;
+    width:60%;
     max-height:80px;
     border-radius:0.48%;
     margin-left:12%;
@@ -143,8 +152,12 @@ th {
 
 #text3 {
     border-radius:0.48%;
-    width:30.57%;
-    margin-left: 0.48%;
+    width:60%;
+    margin-left: 1.48%;
+}
+
+dd {
+    font-size:12px;
 }
 
 /*
