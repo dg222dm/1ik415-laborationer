@@ -1,4 +1,4 @@
-@media screen and (max-width: 481px) {
+@media screen and (max-width:481px) {
 #content {
 	width: 100%;
 	float: none;
@@ -23,7 +23,7 @@ h1 {
 }
 
 
-}
+
 #header {
     width:100%;
     background-color:#051035;
@@ -67,23 +67,6 @@ h1 {
     background-repeat:no-repeat;
 }
 
-#home-icon { background-position: 0 -44px}
-#home-icon:hover {background-position: 0px 4px}
-
-#tool-icon { background-position: 0px -140px}
-#tool-icon:hover {background-position: 0 -92px}
-
-#presentation-icon { background-position: 0px -236px}
-#presentation-icon:hover {background-position: 0 -188px}
-
-#contact-icon { background-position: 0px -333px}
-#contact-icon:hover {background-position: 0 -285px}
-
-#nav a:link, #nav a:active, #nav a:visited {
-    color: #000000;
-}
-
-
 
 #background {
     width:100%;
@@ -112,45 +95,24 @@ h1 {
 
 }
 
-.right {
-    float: right;
-    border:1px solid #021a40;
-    padding: 1px;
-}
-.left {
-    float: left;
-    border:1px solid #021a40;
-    padding: 1px;
-}
-
-.center {
-    margin-left:21.48%; 
-    
-  }
-  
-  table, td, th {
-    border: 1px  solid;
-}
-
-th {
-    background-color: green;
-    color: white;
-}
-
 #text {
+    padding:5px;
     border-radius:0.48%;
     margin-left:12%;
-    width: 60%;
+    width: 55%;
 }
 
 #text2 {
-    width:60%;
+    padding:25px;
+    width:42%;
+    max-width:42%;
     max-height:80px;
     border-radius:0.48%;
     margin-left:12%;
 }
 
 #text3 {
+    padding:5px;
     border-radius:0.48%;
     width:60%;
     margin-left: 1.48%;
@@ -168,3 +130,4 @@ content färg: #596381
 footer färg: #051035
 
 */
+}
